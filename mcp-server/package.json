@@ -1,0 +1,19 @@
+{
+  "name": "open-lovable-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A secured Model Context Protocol adapter for Open Lovable",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  }
+}
